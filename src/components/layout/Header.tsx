@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Zap } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { useLanguage } from '../../contexts/LanguageContext';
 import LanguageToggle from '../common/LanguageToggle';
 
@@ -118,7 +118,7 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center space-x-2 group cursor-pointer" onClick={() => scrollToSection('#home')}>
-            <Zap className="w-8 h-8 text-accent-500 group-hover:rotate-12 transition-transform duration-300" />
+            {/*<Zap className="w-8 h-8 text-accent-500 group-hover:rotate-12 transition-transform duration-300" />*/}
             <span className="text-2xl font-bold text-white group-hover:text-accent-500 transition-colors duration-300">Premium Events Solution</span>
           </div>
 
