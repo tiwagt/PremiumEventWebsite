@@ -132,7 +132,7 @@ const Hero: React.FC = () => {
               <div className="absolute -bottom-2 -left-2 w-2 h-2 bg-purple-600/40 rounded-full animate-bounce" style={{ animationDelay: '1.5s' }}></div>
             </span>
             <br />
-            {t('hero.title.experiences')}
+            {/*t('hero.title.experiences')*/}
           </h1>
           
           <div className="relative">

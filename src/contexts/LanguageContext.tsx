@@ -22,10 +22,10 @@ const translations = {
     'nav.getStarted': 'Get Started',
 
     // Hero Section
-    'hero.title.we': 'We Create',
-    'hero.title.digital': 'Digital',
-    'hero.title.experiences': 'Experiences',
-    'hero.subtitle': 'Transform your brand with cutting-edge digital solutions that captivate, convert, and accelerate business growth.',
+    'hero.title.we': 'Digital Experiences',
+    'hero.title.digital': 'Built for you',
+    //'hero.title.experiences': '',
+    'hero.subtitle': 'We craft powerful digital solutions designed to captivate your audience, boost conversions, and accelerate your business growth.',
     'hero.cta.start': 'Start Your Project',
     'hero.cta.view': 'View Our Work',
 
@@ -352,10 +352,10 @@ const translations = {
     'nav.getStarted': 'Commencer',
 
     // Hero Section
-    'hero.title.we': 'Nous Créons des',
-    'hero.title.digital': 'Expériences',
+    'hero.title.we': 'Expériences Numériques',
+    'hero.title.digital': ' sur Mesure',
     'hero.title.experiences': 'Numériques',
-    'hero.subtitle': 'Transformez votre marque avec des solutions numériques de pointe qui captivent, convertissent et accélèrent la croissance.',
+    'hero.subtitle': 'Créez l\'engagement, multipliez les conversions et accélérez votre croissance avec nos solutions numériques percutantes.',
     'hero.cta.start': 'Démarrer Votre Projet',
     'hero.cta.view': 'Voir Notre Travail',
 
@@ -527,7 +527,7 @@ const translations = {
     'about.team.sarah.quote': 'Le code est une poésie pour les machines, mais lue par les humains.',
     'about.team.sarah.workingStyle': 'Rigoureuse et méthodique, elle privilégie le code propre et le mentorat.',
 
-    'about.team.david.role': 'Stratège marketing digital',
+    'about.team.david.role': 'Marketing digital',
     'about.team.david.bio': 'Marketeur data-driven, expert en growth hacking et analytics.',
     'about.team.david.fullBio': "David allie analyse et créativité pour générer de la croissance. Son approche data-driven a permis à de nombreuses entreprises d’atteindre des résultats exceptionnels.",
     'about.team.david.expertise1': 'Growth marketing',
@@ -545,8 +545,8 @@ const translations = {
     'about.team.david.quote': "En marketing, la data raconte l’histoire, la créativité la fait vivre.",
     'about.team.david.workingStyle': 'Analytique et orienté résultats, il teste tout et décide sur la base de données.',
 
-    'about.team.maya.role': 'Designer UX/UI',
-    'about.team.maya.bio': 'Designer centrée utilisateur, spécialisée dans la création d’expériences numériques intuitives.',
+    'about.team.maya.role': 'Concepteur UX/UI',
+    'about.team.maya.bio': 'Spécialisée dans la création d’expériences numériques intuitives.',
     'about.team.maya.fullBio': 'Maya est passionnée par la création d’expériences numériques à la fois belles, intuitives et accessibles. Son approche centrée utilisateur garantit que chaque interface conçue répond réellement aux besoins des utilisateurs.',
     'about.team.maya.expertise1': 'Conception d’expérience utilisateur',
     'about.team.maya.expertise2': 'Design d’interface',
@@ -631,6 +631,23 @@ const translations = {
     'contact.form.success': 'Message envoyé !',
     'contact.form.successText': 'Merci pour votre message. Nous vous répondrons sous 24h.',
     'contact.form.privacy': 'Nous respectons votre vie privée et ne partagerons jamais vos informations.', 
+
+    // Process steps
+    'process.step1': 'Response Initial',
+    'process.step1.desc': 'Nous vous répondrons en moins de 24 heures',
+    'process.step2': 'Appel découverte',
+    'process.step2.desc': 'Consultation gratuite pour discuter de vos besoins',
+    'process.step3': 'Proposition',
+    'process.step3.desc': 'Proposition détaillée avec calendrier et prix',
+
+    // Validation messages
+    'validation.nameRequired': 'Le nom est requis',
+    'validation.nameMinLength': 'Le nom doit comporter au moins 2 caractères',
+    'validation.emailRequired': 'L’e-mail est requis',
+    'validation.emailInvalid': 'S’il vous plaît, mettez une adresse email valide',
+    'validation.messageRequired': 'Le message est requis',
+    'validation.messageMinLength': 'Le message doit comporter au moins 10 caractères',
+    'validation.messageMaxLength': 'Le message doit contenir moins de 1000 caractères',
 
     // Footer
     'footer.description': 'Nous créons des expériences digitales qui captivent, convertissent et accélèrent la croissance.',
